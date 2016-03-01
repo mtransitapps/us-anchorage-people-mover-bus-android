@@ -13,7 +13,7 @@ This app adds Anchorage People Mover buses information to MonTransit.
 
 This app provides the buses schedule as well as the latest news from YouTube and @AncPeopleMover on Twitter.
 
-People Mover buses serve Anchorage in Alaska, United States.
+People Mover buses serve Anchorage, Alaska, United States.
 
 Once this application is installed, the MonTransit app will display buses information (schedule...).
 
