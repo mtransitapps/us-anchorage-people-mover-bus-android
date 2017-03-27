@@ -11,7 +11,6 @@ android {
     Properties projectNameProperties = new Properties()
     projectNameProperties.load(new FileInputStream(file("project_name.properties")))
 
-    // def projectName = "MT-CA-Airdrie-Transit-Bus";
     def projectName = projectNameProperties["project.name"];
 
     Properties versionProperties = new Properties()
@@ -20,19 +19,11 @@ android {
     Properties keysProperties = new Properties()
     keysProperties.load(new FileInputStream(file("../keys.properties")))
 
-    // Properties customLocalProperties = new Properties()
-    // customLocalProperties.load(new FileInputStream(file("../custom_local.properties")))
-    //
-    // def outputDir = customLocalProperties['output.dir']
-    // def outputCloudDir = customLocalProperties['output.cloud.dir']
-    //
     //noinspection GroovyMissingReturnStatement
     defaultConfig {
         versionCode versionProperties['version.code'] as Integer
         versionName versionProperties['version.name']
-        // MT-CA-Airdrie-Transit-Bus_v1.1r1_r1.apk
         setProperty("archivesBaseName", "${projectName}_v${versionName}_r${versionCode}")
-        // archivesBaseName = "MT-CA-Airdrie-Transit-Bus-$versionName\\_r$versionCode";
         resConfigs "en"
     }
 
@@ -46,22 +37,10 @@ android {
     }
 
     buildTypes {
-        // debug {
-        // versionNameSuffix "_DEBUG"
-        // TODO useProguard false
-        // }
         //noinspection GroovyMissingReturnStatement
         release {
-            // TODO later  minifyEnabled true
             minifyEnabled false
-            // TODO shrinkResources true
-            // TODO useProguard true
-            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
-            // if (keysFile.exists()) {
             signingConfig signingConfigs.release
-            // }
-            // versionCode = releaseVersionProps['version.code']
-            // versionName = releaseVersionProps['version.name']
         }
     }
 
@@ -87,26 +66,15 @@ android {
             Properties customLocalProperties = new Properties()
             customLocalProperties.load(new FileInputStream(file("../custom_local.properties")))
             def outputDir = customLocalProperties['output.dir']
-            // println "outputDir: $outputDir";
             def outputCloudDir = customLocalProperties['output.cloud.dir']
             variant.outputs.each { output ->
                 if (output.outputFile != null && output.outputFile.name.endsWith('.apk')) {
                     def copyToOutputDirTask = project.tasks.create("copyToOutputDir${variant.name}Apk", Copy)
                     def copyToOutputCloudDirTask = project.tasks.create("copyToOutputCloudDir${variant.name}Apk", Copy)
-                    //
-                    // def outputFile = output.outputFile
-                    // println "Creating " + rootProject.name + "-${versionName}.apk" + " from " + project.name + "-${variant.name}.apk"
-                    // def fileName = outputFile.name.replace(project.name + "-${variant.name}.apk", rootProject.name +"-${versionName}.apk")
-                    // output.outputFile = new File(outputFile.parent, fileName)
-                    //
-                    // println "Copying " + rootProject.name + "-${versionName}.apk" + " to apk directory..."
                     copyToOutputDirTask.from(output.outputFile)
                     copyToOutputCloudDirTask.from(output.outputFile)
-                    // task.into(buildDir.parent + "/../apk")
                     copyToOutputDirTask.into(outputDir)
                     copyToOutputCloudDirTask.into(outputCloudDir)
-                    // println "Done"
-                    //
                     copyToOutputDirTask.dependsOn variant.assemble
                     copyToOutputCloudDirTask.dependsOn variant.assemble
                     publish.dependsOn copyToOutputDirTask
