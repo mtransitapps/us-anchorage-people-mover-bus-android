@@ -1,30 +1,26 @@
-100,0,'Dimond Ctr',1
-101,0,'Muldoon',1
-200,0,'Dimond Ctr',2
-201,0,'Downtown',2
-300,0,'Centennial Vlg',3
-301,0,'Downtown',3
-700,0,'Dimond Ctr',7
-701,0,'Downtown',7
-801,0,'Downtown',8
-800,0,'Muldoon',8
-900,0,'Dimond Ctr',9
-901,0,'Downtown',9
-1301,0,'Downtown',13
-1300,0,'Muldoon',13
-1402,0,'Downtown',14
-1401,0,'Richardson Vista',14
-1501,0,'Downtown',15
-1500,0,'Muldoon',15
-3600,0,'APU',36
-3601,0,'Downtown',36
-4500,0,'ANMC',45
-4501,0,'Downtown',45
-6001,0,'Downtown',60
-6000,0,'Huffman Business Pk',60
-7501,0,'Downtown',75
-7500,0,'VA Clinic',75
-10201,0,'ANMC',102
-10200,0,'Peters Crk',102
-100100,0,'Eagle River TC',1001
-100101,0,'Muldoon Transfer Ctr',1001
+1001,0,'Downtown',10
+1000,0,'Muldoon',10
+1104,0,'Fairview',11
+1103,0,'Gov''t Hl',11
+2000,0,'AK Native Medical Ctr',20
+2001,0,'Downtown',20
+2102,0,'City Hall',21
+2101,0,'Mtn Vw',21
+2501,0,'Downtown',25
+2500,0,'VA Clinic',25
+3001,0,'Downtown',30
+3000,0,'Muldoon',30
+3100,0,'Centennial Vlg',31
+3101,0,'Downtown',31
+3500,0,'Dimond Ctr',35
+3501,0,'Downtown',35
+4000,0,'Airport',40
+4001,0,'Downtown',40
+5501,0,'Dimond Ctr',55
+5500,0,'UMED',55
+6501,0,'Dimond Ctr',65
+6500,0,'Spenard',65
+9103,0,'Dimond Ctr',91
+9104,0,'Huffman Business Pk',91
+9201,0,'Downtown',92
+9200,0,'Eagle River TC',92
