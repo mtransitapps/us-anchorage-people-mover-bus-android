@@ -5,7 +5,7 @@ Anchorage People Mover Bus for MonTransit.
 Schedule. News.
 ----------
 What's new in this version?:
-Schedule from October 23, 2017 to October 21, 2018.
+Schedule from July 2, 2018 to July 2, 2019.
 News from @AncPeopleMover.
 ----------
 Full description:
