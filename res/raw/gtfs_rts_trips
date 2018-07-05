@@ -4,18 +4,19 @@
 1103,0,'Gov''t Hl',11
 2000,0,'AK Native Medical Ctr',20
 2001,0,'Downtown',20
-2102,0,'City Hall',21
 2101,0,'Mtn Vw',21
+2102,0,'Northway Mall',21
 2501,0,'Downtown',25
 2500,0,'VA Clinic',25
 3001,0,'Downtown',30
 3000,0,'Muldoon',30
 3100,0,'Centennial Vlg',31
-3101,0,'Downtown',31
+3101,0,'Northway Mall',31
 3500,0,'Dimond Ctr',35
 3501,0,'Downtown',35
 4000,0,'Airport',40
 4001,0,'Downtown',40
+4100,0,'Loop',41
 5501,0,'Dimond Ctr',55
 5500,0,'UMED',55
 6501,0,'Dimond Ctr',65
