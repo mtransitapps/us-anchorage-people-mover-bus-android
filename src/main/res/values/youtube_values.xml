@@ -5,19 +5,19 @@
     <string name="youtube_target_for_poi_authority">@string/gtfs_rts_authority</string>
     <string name="youtube_color">@string/gtfs_rts_color</string>
     <string-array name="youtube_channels_username">
-        <item>anchpeoplemover</item>
+        <item></item>
     </string-array>
     <string-array name="youtube_channels_id">
-        <item>UCo27L1Q4ukZ6Tsvmo-00fVw</item>
+        <item>UChtAg4o_mkVekXRymQ0r2-A</item>
     </string-array>
     <string-array name="youtube_channels_uploads_playlist_id">
-        <item>UUo27L1Q4ukZ6Tsvmo-00fVw</item>
+        <item>UUhtAg4o_mkVekXRymQ0r2-A</item>
     </string-array>
     <string-array name="youtube_channels_author_name">
         <item>@string/gtfs_rts_short_name</item>
     </string-array>
     <string-array name="youtube_channels_author_url">
-        <item>https://www.youtube.com/user/anchpeoplemover</item>
+        <item>https://www.youtube.com/channel/UChtAg4o_mkVekXRymQ0r2-A</item>
     </string-array>
     <string-array name="youtube_channels_lang">
         <item>@string/news_provider_language_unknown_show_all</item>
