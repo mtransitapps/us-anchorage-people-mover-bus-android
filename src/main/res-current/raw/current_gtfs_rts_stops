@@ -9,6 +9,8 @@
 10,'0010','C St & Fireweed SSW',61.197747,-149.88703
 11,'0011','C St & Benson NNW',61.194527,-149.886848
 12,'0012','C St & 31st Ave NNW',61.19271,-149.886782
+14,'0014','36th Ave & C St ESE',61.188,-149.8852
+15,'0015','36th Ave & A St ESE',61.188,-149.8818
 23,'0023','Lk Otis & 36th Ave SSW',61.187323,-149.838461
 26,'0026','Lk Otis & Tudor SSW',61.179662,-149.838407
 28,'0028','Lk Otis & Waldron SSW',61.174402,-149.838394
@@ -37,6 +39,7 @@
 86,'0086','Lk Otis & Waldron NNE',61.175673,-149.837927
 88,'0088','Lk Otis & Tudor NNE',61.181575,-149.83782
 89,'0089','Lk Otis & 42nd Ave NNE',61.183,-149.838
+98,'0098','36th Ave & Denali WNW',61.1882,-149.8782
 99,'0099','A St & 36th Ave NNE',61.188076,-149.883126
 100,'0100','A St & 31st Ave SSE',61.192401,-149.88293
 101,'0101','A St & Northern Lights NNE',61.195933,-149.882935
@@ -329,23 +332,64 @@
 957,'0957','Hillcrest & West HS S',61.200949,-149.914986
 958,'0958','Hillcrest & Romig Pl ESE',61.200527,-149.909789
 959,'0959','Spenard & Fireweed NNW',61.199168,-149.905968
+971,'0971','Denali & 36th Ave SSW',61.1876,-149.877
+972,'0972','40th Ave & Old Seward WSW',61.1844,-149.8689
+973,'0973','Old Seward & 42nd Ave NNW',61.1828,-149.8684
+974,'0974','Old Seward & Tudor SSW',61.1797,-149.8684
+975,'0975','Old Seward & 48th Ave NNW',61.1775,-149.8684
+977,'0977','Old Seward & Intl Arpt Rd SSW',61.1731,-149.8684
+978,'0978','Old Seward & 56th Ave NNW',61.1704,-149.8684
+979,'0979','Old Seward & Dowling NNW',61.1669,-149.8683
+980,'0980','Old Seward & Fischer SSW',61.1638,-149.8659
+981,'0981','Old Seward & Merlin Loop SSW',61.1585,-149.8643
+982,'0982','Old Seward & 70th Ave NNW',61.1571,-149.8643
+983,'0983','Old Seward & 73rd Ave SSW',61.1543,-149.8644
+984,'0984','Old Seward & 76th Ave',61.1514,-149.8644
+986,'0986','Old Seward & 80th Ave NNW',61.1486,-149.8643
+987,'0987','Old Seward & 82nd Ave NNW',61.1465,-149.8643
 992,'0992','Old Seward & Dimond SSW',61.14402,-149.864385
 1010,'1010','Oceanview & Venus ESE',61.099553,-149.85422
 1011,'1011','Old Seward & Hamilton NNE',61.10038,-149.852545
 1012,'1012','Old Seward & Helen SSE',61.102462,-149.855326
 1015,'1015','Huffman & Silverfox ESE',61.108556,-149.859913
 1017,'1017','Huffman Business Pk',61.110207,-149.857457
+1045,'1045','Old Seward & 80th Ave NNE',61.1488,-149.8638
+1046,'1046','Old Seward & 74th Ave SSE',61.1533,-149.8639
+1047,'1047','Old Seward & 72nd Ave SSE',61.1547,-149.8638
+1048,'1048','Old Seward & 69th Ave SSE',61.158,-149.8639
+1049,'1049','Old Seward & Sylvan NNE',61.1606,-149.8639
+1051,'1051','Old Seward & Dowling SSE',61.1653,-149.8667
+1052,'1052','Old Seward & 56th Ave NNE',61.1704,-149.8678
+1053,'1053','Old Seward & Intl Arpt Rd NNE',61.1748,-149.8679
+1054,'1054','Old Seward & 48th Ave SSE',61.1768,-149.8679
+1055,'1055','Old Seward & 46th Ave SSE',61.1786,-149.8679
+1056,'1056','Old Seward & Tudor NNE',61.1815,-149.868
+1058,'1058','40th Ave & Old Seward WNW',61.1846,-149.8693
 1071,'1071','Spenard & Hillcrest SSE',61.200246,-149.90745
 1072,'1072','Spenard & 19th Ave NNE',61.203679,-149.905504
 1075,'1075','I St & 11th Ave SSE',61.211445,-149.89949
 1084,'1084','Muldoon & Debarr W SSW',61.209295,-149.733821
 1089,'1089','Northern Lights & Muldoon WNW',61.195397,-149.736429
 1100,'1100','Northern Lights & Arca Dr ENE',61.19906,-149.81666
+1117,'1117','36th Ave & A St WNW',61.1881,-149.884
+1118,'1118','36th Ave & C St WNW',61.1882,-149.888
+1119,'1119','36th Ave & Eureka WNW',61.1882,-149.8911
+1120,'1120','36th Ave & Bering ENE',61.1882,-149.8945
+1121,'1121','36th Ave & Arctic WNW',61.1882,-149.8992
+1122,'1122','36th Ave & Dorbrandt WNW',61.1882,-149.9056
 1123,'1123','Spenard & 36th Ave SSW',61.187809,-149.908954
 1135,'1135','Spenard & Iowa WNW',61.18292,-149.929105
 1136,'1136','Spenard & Barbara WNW',61.18212,-149.932973
 1137,'1137','Spenard & Turnagain Blvd WNW',61.181557,-149.935655
 1138,'1138','Spenard & Lakeshore WNW',61.180332,-149.9382
+1139,'1139','Wisconsin & 43rd Ave NNE',61.1813,-149.9427
+1140,'1140','Wisconsin & Balchen NNE',61.1834,-149.9427
+1141,'1141','Wisconsin & Wiley Post Ave SSE',61.1868,-149.9427
+1151,'1151','Northern Lights & Wisconsin',61.1953,-149.9413
+1152,'1152','Northern Lights & Turnagain ESE',61.1953,-149.9339
+1153,'1153','Northern Lights & Forest Pk ESE',61.1952,-149.9269
+1154,'1154','Benson & Lois ESE',61.1938,-149.9179
+1156,'1156','Minnesota & Benson NNE',61.1946,-149.9128
 1158,'1158','I St & 15th Ave NNE',61.208166,-149.89948
 1159,'1159','I St & 13th Ave NNE',61.20989,-149.899466
 1161,'1161','I St & 9th Ave SSE',61.213314,-149.899458
@@ -354,8 +398,19 @@
 1173,'1173','L St & 11th Ave SSW',61.211336,-149.903843
 1174,'1174','L St & 13th Ave SSW',61.209409,-149.903821
 1175,'1175','Minnesota & 26th Ave SSW',61.197062,-149.913412
+1176,'1176','Northern Lights & Minnesota WNW',61.1954,-149.9155
+1178,'1178','Northern Lights & Forest Pk WNW',61.1954,-149.929
+1179,'1179','Northern Lights & Turnagain WNW',61.1955,-149.9369
+1188,'1188','Wisconsin & Milky Way SSW',61.1884,-149.943
+1189,'1189','Wisconsin & Wiley Post Lp SSW',61.1865,-149.9429
+1190,'1190','Wisconsin & Balchen SSW',61.1827,-149.9429
+1191,'1191','Wisconsin & Lakeshore SSW',61.1804,-149.9425
 1193,'1193','Spenard & Forrest SSE',61.181644,-149.934613
 1194,'1194','Spenard & Iowa SSE',61.182522,-149.92922
+1206,'1206','36th Ave & Spenard ESE',61.188,-149.9079
+1207,'1207','36th Ave & Cope ESE',61.188,-149.9022
+1208,'1208','36th Ave & Arctic ESE',61.188,-149.8959
+1209,'1209','36th Ave & Centerpoint ESE',61.188,-149.89
 1223,'1223','Providence & Alumni WNW',61.189969,-149.8169
 1228,'1228','Northern Lights & Bragaw ESE',61.198672,-149.807013
 1230,'1230','Northern Lights & Wesleyan ESE',61.195107,-149.786908
@@ -438,6 +493,7 @@
 1453,'1453','Cordova & 8th Ave SSW',61.214379,-149.879314
 1556,'1556','Old Seward & Klatt NNE',61.116379,-149.863561
 1557,'1557','Old Seward & O''malley Ctr NNE',61.120333,-149.863556
+1563,'1563','Old Seward & 82nd Ave NNE',61.1465,-149.8638
 1564,'1564','88th Ave & Old Seward WNW',61.141181,-149.866872
 1574,'1574','Old Seward & O''malley Ctr NNW',61.120267,-149.864095
 1575,'1575','Old Seward & Klatt NNW',61.11654,-149.864135
@@ -531,6 +587,8 @@
 2205,'2205','Muldoon & Heritage Ctr WNW',61.231092,-149.738035
 2207,'2207','Muldoon & Zuckert ESE',61.230879,-149.740091
 2209,'2209','VA Outpatient Clinic',61.232413,-149.74357
+3000,'3000','40th Ave & Denali ENE',61.1846,-149.8751
+3001,'3001','40th Ave & Denali ESE',61.1844,-149.875
 3006,'3006','Ambassador & Elmore ESE',61.183223,-149.807165
 3007,'3007','Ambassador & Elmore ENE',61.183325,-149.807528
 3008,'3008','Ambassador & Tudor Ctr WSW',61.183298,-149.802729
@@ -541,14 +599,15 @@
 3018,'3018','3rd Ave & Reeve WNW',61.219629,-149.837466
 3024,'3024','Airport South Term',61.173144,-149.979292
 3033,'3033','Intl Arpt Rd & Rr Xing WSW',61.174779,-149.953271
-3034,'3034','Airport North Term',61.178058,-149.984168
 3038,'3038','Muldoon & 36th Ave NNE',61.18862,-149.733025
 3044,'3044','Old Glenn & Eagle River Rd ENE',61.320307,-149.571354
 3075,'3075','Tudor Ctr & ANMC Xwalk ESE',61.183555,-149.798885
 3077,'3077','Tudor Ctr & Kidney Ctr SSW',61.182429,-149.795203
+3080,'3080','Wisconsin & 40th Ave NNE',61.185,-149.9427
+3081,'3081','Wisconsin & 40th Ave SSW',61.1842,-149.9429
+3082,'3082','Wisconsin & Lakeshore NNE',61.1799,-149.9413
 3507,'3507','5th Ave & F St WNW',61.217604,-149.893845
 3511,'3511','Intl Arpt Rd & Aircrft ESE',61.176544,-149.966894
-3519,'3519','Postmark & Heliport Pl ENE',61.177805,-149.977945
 3525,'3525','9th Ave & L St ENE',61.213718,-149.902235
 3526,'3526','9th Ave & H St WNW',61.213708,-149.898559
 3527,'3527','9th Ave & F St WNW',61.213682,-149.894411
@@ -567,6 +626,7 @@
 3566,'3566','Hyder & 11th Ave NNE',61.211958,-149.868897
 3567,'3567','Hyder & 11th Ave SSW',61.211416,-149.869123
 3568,'3568','Hyder & 9th Ave SSE',61.213479,-149.868807
+3587,'3587','Old Seward & Sylvan SSW',61.1598,-149.8644
 3589,'3589','Arctic & 67th Ave NNW',61.160805,-149.892212
 3592,'3592','Spenard & Fireweed NNE',61.199487,-149.905757
 3593,'3593','Bragaw & Debarr SSW',61.20868,-149.808539
@@ -583,6 +643,7 @@
 3710,'3710','Debarr & Creekside Ctr WNW',61.209907,-149.743743
 3711,'3711','Muldoon & Zuckert WNW',61.231258,-149.741889
 3718,'3718','Mtn Vw & Glenn Sq NNW',61.220614,-149.82254
+3721,'3721','Old Seward & Intl Arpt Rd SSE',61.1733,-149.8678
 3723,'3723','Arctic & 42nd Ave SSW',61.18275,-149.898166
 7013,'7013','Mtn Vw & Bragaw St WSW',61.223919,-149.808969
 7014,'7014','Bragaw & Glenn Hwy Off-Ramp NNE',61.22283,-149.80817
@@ -606,3 +667,8 @@
 7033,'7033','Pine & San Roberto NNE',61.2137,-149.79328
 7036,'7036','Spenard & 27th Ave NNW',61.196588,-149.905617
 7037,'7037','Tudor Ctr & Diplomacy SSW',61.1818,-149.803777
+7038,'7038','Wisconsin & 35th Ave NNE',61.189258,-149.942573
+7039,'7039','Wisconsin & 32nd Ave SSW',61.191425,-149.942962
+7040,'7040','Wisconsin & 32nd Ave NNE',61.191941,-149.942747
+7042,'7042','Wisconsin & 29th Ave SSE',61.194191,-149.942547
+7043,'7043','Wisconsin & 29th Ave SSW',61.193999,-149.943284
