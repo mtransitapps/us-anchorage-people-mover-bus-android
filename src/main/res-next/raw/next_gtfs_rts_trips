@@ -1,22 +1,22 @@
-1001,0,'To Downtown',10
-1000,0,'To The Muldoon Transit Hub',10
+1001,0,'Downtown',10
+1000,0,'Muldoon Transit Hub',10
 1101,0,'Senior Ctr Loop',11
-2001,0,'To Downtown',20
-2000,0,'To The Alaska Native Medical Ctr',20
-2501,0,'To Downtown',25
-2500,0,'To The VA Clinic',25
-3001,0,'To Downtown',30
-3000,0,'To The Muldoon Transit Hub',30
+2000,0,'Alaska Native Medical Ctr',20
+2001,0,'Downtown',20
+2501,0,'Downtown',25
+2500,0,'VA Clinic',25
+3001,0,'Downtown',30
+3000,0,'Muldoon Transit Hub',30
 3101,0,'Northeast Loop',31
-3501,0,'To Downtown',35
-3500,0,'To The Dimond TC',35
-4001,0,'Spenard Loop With Service To The Airport',40
+3500,0,'Dimond TC',35
+3501,0,'Downtown',35
+4001,0,'Airport',40
 4101,0,'Gov Hl Loop',41
-5101,0,'To Centennial Vlg',51
-5500,0,'To The Alaska Native Medical Ctr',55
-5501,0,'To The Dimond TC',55
-6501,0,'Jewel Lk Loop With Service To Airport',65
-8501,0,'To Downtown',85
-8500,0,'To The Huffman Business Pk',85
-9201,0,'To Downtown',92
-9200,0,'To Eagle River',92
+5101,0,'Centennial Vlg',51
+5500,0,'Alaska Native Medical Ctr',55
+5501,0,'Dimond TC',55
+6501,0,'Airport',65
+8501,0,'Downtown',85
+8500,0,'Huffman Business Pk',85
+9201,0,'Downtown',92
+9200,0,'Eagle River',92
