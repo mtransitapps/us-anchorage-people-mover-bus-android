@@ -29,11 +29,6 @@ public class AnchoragePeopleMoverBusAgencyTools extends DefaultAgencyTools {
 		return LANG_EN;
 	}
 
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
-	}
-
 	@NotNull
 	public String getAgencyName() {
 		return "People Mover";
