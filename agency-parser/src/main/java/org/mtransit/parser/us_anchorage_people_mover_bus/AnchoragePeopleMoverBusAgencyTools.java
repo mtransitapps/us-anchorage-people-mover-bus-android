@@ -41,6 +41,16 @@ public class AnchoragePeopleMoverBusAgencyTools extends DefaultAgencyTools {
 	}
 
 	@Override
+    public @Nullable String getServiceIdCleanupRegex() {
+        return "-v[0-9]+$";
+    }
+
+	@Override
+    public @Nullable String getTripIdCleanupRegex() {
+        return "-v[0-9]+$";
+    }
+
+	@Override
 	public boolean defaultRouteIdEnabled() {
 		return true;
 	}

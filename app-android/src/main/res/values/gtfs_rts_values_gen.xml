@@ -6,4 +6,6 @@
     <integer name="gtfs_rts_agency_type">3</integer>
     <string name="gtfs_rts_timezone">America/Anchorage</string>
     <string name="gtfs_rts_color">34855B</string>
+    <string name="gtfs_rts_service_id_cleanup_regex">-v[0-9]+$</string>
+    <string name="gtfs_rts_trip_id_cleanup_regex">-v[0-9]+$</string>
 </resources>
