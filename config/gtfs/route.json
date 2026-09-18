@@ -1,0 +1,45 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": true,
+    "route_short_name_to_route_id_configs": [
+        {
+            "route_short_name": "ERC",
+            "route_id": 1001
+        }
+    ],
+    "default_route_long_name_enabled": true,
+    "route_colors_ignored": [
+        "000000"
+    ],
+    "direction_finder_enabled": true,
+    "direction_headsign_cleaners": [
+        {
+            "regex": "(inbound|outbound)",
+            "ignore_case": true,
+            "is_word": true
+        },
+        {
+            "regex": "( (\\w{3}|E|W|N|S)$)",
+            "ignore_case": true,
+            "comment": "Ends with bounds"
+        }
+    ],
+    "trip_id_cleanup_regex": "-v[0-9]+$",
+    "trip_headsign_remove_via": true,
+    "trip_headsign_cleaners": [
+        {
+            "regex": "(^([A-Z])( -)(.*))",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "$2$4",
+            "comment": "Leading capital letter followed by ' -'"
+        },
+        {
+            "regex": "(^the )",
+            "ignore_case": true,
+            "comment": "Remove leading 'the '"
+        }
+    ],
+    "use_stop_code_for_stop_id": true,
+    "stop_name_cleaners": []
+}
