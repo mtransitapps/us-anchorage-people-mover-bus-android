@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-// https://www.muni.org/Departments/transit/PeopleMover/Pages/GTFSDiscliamer.aspx
+// https://gtfs.muni.org/
 public class AnchoragePeopleMoverBusAgencyTools extends DefaultAgencyTools {
 
 	public static void main(@NotNull String[] args) {
